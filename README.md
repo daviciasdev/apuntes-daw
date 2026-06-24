@@ -10,8 +10,8 @@ Forma parte de un programa de autoaprendizaje estructurado (julio 2026 – junio
 
 | Bloque | Contenido | Estado |
 |---|---|---|
-| **0 — Entorno y método** | Git, IDE, terminal y Linux básico | 🟡 En curso |
-| 1 — Programación con Java | Sintaxis, POO, colecciones, manejo de errores | ⚪ Pendiente |
+| **0 — Entorno y método** | Git, IDE, terminal y Linux básico | ✅ Completado |
+| **1 — Programación con Java** | Sintaxis, POO, colecciones, manejo de errores | 🟡 En curso |
 | 2 — Lenguajes de marcas | HTML, CSS, XML/JSON | ⚪ Pendiente |
 | 3 — Desarrollo en cliente | JavaScript, DOM, React | ⚪ Pendiente |
 | 4 — Diseño de interfaces | UX/UI, CSS avanzado, responsive, accesibilidad | ⚪ Pendiente |
@@ -28,9 +28,19 @@ Forma parte de un programa de autoaprendizaje estructurado (julio 2026 – junio
 
 Apuntes disponibles:
 - Atajos de teclado de Ubuntu (GNOME)
-- Comandos básicos de terminal
+- Comandos de terminal: navegación, búsqueda (grep, find), redirección y tuberías
+- Permisos de Linux (chmod)
 - Git, GitHub, SSH e instalación de Java
+- Ciclo de trabajo de Git
+- Proyecto: script `fichar` (registro de tiempo de estudio)
+- Horario y rutina de estudio
 
 ---
+
+---
+## Bloque 1 — Programación con Java
+📂 Carpeta: [`bloque-1-java/`](bloque-1-java/)
+
+En curso. Un resumen por cada tema; la ruta completa está en el README de la carpeta.
 
 *Documento vivo: se actualiza según avanza el programa.*
