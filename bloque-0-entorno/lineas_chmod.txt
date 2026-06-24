@@ -1,0 +1,11 @@
+# Linux: Permisos de archivos (`chmod`)
+## 4. `chmod` — dos formas
+chmod 644 notas.txt      # rw-r--r--
+chmod 755 script.sh      # rwxr-xr-x
+chmod 600 id_ed25519     # rw------- (privado)
+chmod u+x script.sh      # añade ejecución SOLO al dueño
+chmod go-w archivo.txt   # quita escritura a grupo y a otros
+chmod a+r documento.pdf  # lectura para todos
+| `chmod g+w f` | `775` | Añade `w` al grupo, resto intacto |
+| `chmod g=w f` | `725` | El grupo queda **solo** con `w` (pierde `r` y `x`) |
+`ls -l` · `chmod`
